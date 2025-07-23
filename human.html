@@ -444,7 +444,7 @@
                     skipTestBtn.disabled = false;
                 }, 1000);
             } else {
-                testFeedback.innerHTML = `Incorrect. The correct answer is "${animals[currentTestIndex].translation}" (${englishWord}).`;
+                testFeedback.innerHTML = `Incorrect. The correct answer is "${animals[currentTestIndex].translation}".`;
                 testFeedback.className = 'text-lg mt-4 text-center text-red-600';
                 testInput.value = '';
             }
